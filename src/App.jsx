@@ -6,6 +6,7 @@ import ResearchDiscovery from './components/ResearchDiscovery/ResearchDiscovery'
 import SustainMart from './components/SustainMart/SustainMart'
 // import TimeToActNow from './components/TimeToActNow/TimeToActNow'
 import Footer from './components/Footer/Footer'
+import Dashboard from './components/Dashboard/Dashboard'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <div className='App'>
         <Navbar />
         <Hero />
+        <Dashboard />
         <SustainSolutions />
         <ResearchDiscovery />
         <SustainMart />
