@@ -4,7 +4,7 @@ import Hero from "./components/Hero/Hero"
 import SustainSolutions from "./components/Sustain-Solutions/Sustain"
 import ResearchDiscovery from './components/ResearchDiscovery/ResearchDiscovery'
 import SustainMart from './components/SustainMart/SustainMart'
-// import TimeToActNow from './components/TimeToActNow/TimeToActNow'
+import TimeToActNow from './components/TimeToActNow/TimeToActNow'
 import Footer from './components/Footer/Footer'
 import Dashboard from './components/Dashboard/Dashboard'
 
@@ -19,7 +19,7 @@ function App() {
         <SustainSolutions />
         <ResearchDiscovery />
         <SustainMart />
-        {/* <TimeToActNow /> */}
+        <TimeToActNow />
         <Footer />
       </div>
     </>
