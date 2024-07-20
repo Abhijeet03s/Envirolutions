@@ -21,10 +21,10 @@ const solutions = [
 
 const SustainSolutions = () => {
    return (
-      <section className="bg-[#FEFAE1] py-16 px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#FEFAE1] py-16 px-8 md:py-32 sm:px-6 lg:px-8">
          <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl font-bold mb-4 text-center text-[#1E1E1E]">Sustain Solutions: <span >Carbon Accounting Methods</span></h2>
-            <p className="text-sm text-[#343330] mb-12 text-center max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-[#1E1E1E]">Sustain Solutions: <span >Carbon Accounting Methods</span></h2>
+            <p className="text-md text-[#343330] mb-12 text-center max-w-3xl mx-auto">
                At Sustain Solutions, we employ cutting-edge carbon accounting methods to
                help businesses measure and reduce their environmental impact
             </p>

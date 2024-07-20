@@ -1,7 +1,6 @@
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 
-
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 const data = {
@@ -40,9 +39,9 @@ const options = {
 
 const Dashboard = () => {
    return (
-      <div className="container mx-auto max-w-7xl px-10 py-16 md:px-0">
-         <h1 className="text-4xl font-bold mb-4 text-[#1E1E1E]">Carbon Credit Dashboard</h1>
-         <div className="dashboard-content grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="container mx-auto max-w-7xl px-10 py-16 md:py-32 md:px-0">
+         <h1 className="text-4xl md:text-5xl font-bold mb-12 text-[#1E1E1E] text-center">Carbon Credit Dashboard</h1>
+         <div className="dashboard-content grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             <div className="left-content space-y-4">
                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="card bg-white p-4 rounded-lg shadow-md">
@@ -62,7 +61,7 @@ const Dashboard = () => {
                   </div>
                </div>
                <div className="sustainability bg-white p-4 rounded-lg shadow-md">
-                  <h2 className="text-xl font-semibold text-[#1E1E1E]">Sustainability Goals</h2>
+                  <h2 className="md:text-xl font-bold text-[#1E1E1E]">Sustainability Goals</h2>
                   <div className="mt-2">
                      <div className="goal">
                         <p className="text-sm">Reforestation</p>
@@ -89,7 +88,7 @@ const Dashboard = () => {
                </div>
             </div>
             <div className="right-content bg-white p-4 rounded-lg shadow-md">
-               <h2 className="text-xl font-semibold mb-1">Monthly Credits & CO2 Reduction</h2>
+               <h2 className="md:text-xl font-bold mb-1">Monthly Credits & CO2 Reduction</h2>
                <Line data={data} options={options} />
             </div>
          </div>
