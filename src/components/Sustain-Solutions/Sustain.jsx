@@ -2,7 +2,7 @@ import { SolutionCard } from "./SustainSolutions-Card";
 
 const solutions = [
    {
-      title: 'Greenhouse Gases Protocol (GHG)',
+      title: 'Greenhouse Gases Protocol',
       description: 'We use this globally recognized standard to quantify emissions across Scope 1 (direct), Scope 2 (indirect energy), and Scope 3 (value chain) categories.'
    },
    {
