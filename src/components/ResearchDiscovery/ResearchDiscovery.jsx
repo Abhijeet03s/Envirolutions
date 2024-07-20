@@ -1,13 +1,12 @@
-
 const ResearchDiscovery = () => {
    return (
-      <section className="pt-16 pb-8 bg-[#002A16]">
-         <div className="container mx-auto max-w-7xl px-10 py-16 flex flex-col-reverse lg:flex-row items-start">
-            <div className="w-full lg:w-1/2 mb-8 lg:mb-0 ">
+      <section className="bg-[#002A16]">
+         <div className="container mx-auto max-w-7xl px-0 py-14 md:py-16 flex flex-col-reverse lg:flex-row items-start">
+            <div className="w-full lg:w-1/2 mb-8 lg:mb-0 pr-10">
                <div className="grid gap-8">
                   <div className="bg-white rounded-lg shadow-md p-4">
                      <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E]">Our Focus Areas</h3>
-                     <ul className="list-disc pl-5 text-[#757575]">
+                     <ul className="list-disc pl-5 text-[#757575] text-sm">
                         <li className="mb-2">
                            Circular Economy: Exploring systems and technologies that minimize waste and maximize resource efficiency.
                         </li>
@@ -16,9 +15,9 @@ const ResearchDiscovery = () => {
                         </li>
                      </ul>
                   </div>
-                  {/* <div className="bg-white rounded-lg shadow-md p-6">
+                  <div className="bg-white rounded-lg shadow-md p-6">
                      <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E]">What We Offer</h3>
-                     <ul className="list-disc pl-5 text-[#757575]">
+                     <ul className="list-disc pl-5 text-[#757575] text-sm">
                         <li className="mb-2">
                            Innovation Showcase: Explore cutting-edge technologies and methodologies being developed and implemented worldwide.
                         </li>
@@ -26,10 +25,10 @@ const ResearchDiscovery = () => {
                            Expert Network: Connect with leading researchers, practitioners, and policymakers in the field.
                         </li>
                      </ul>
-                  </div> */}
+                  </div>
                   <div className="bg-white rounded-lg shadow-md p-6">
                      <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E]">Why Join Our Platform?</h3>
-                     <ul className="list-disc pl-5 text-[#757575]">
+                     <ul className="list-disc pl-5 text-[#757575] text-sm">
                         <li className="mb-2">
                            Real-World Impact: Our research directly informs policy decisions and industry practices, creating tangible environmental benefits.
                         </li>
@@ -40,15 +39,20 @@ const ResearchDiscovery = () => {
                   </div>
                </div>
             </div>
-            <div className="w-full lg:w-1/2 lg:pl-12 text-[#FEFAE1] mb-8 lg:mb-0">
-               <h2 className="text-5xl font-bold mb-8">Research and Discovery</h2>
-               <p className="mb-4 text-[16px]">
+            <div className="w-full lg:w-1/2 lg:pl-12 text-[#FEFAE1] mb-8 lg:mb-0 pl-10">
+               <h2 className="text-4xl font-bold mb-8">Research and Discovery</h2>
+               <p className="mb-4 text-md">
                   Welcome to our Research and Discovery platform, where we dive deep into the
                   critical issues of waste management and sustainability. Our mission is to
                   provide cutting-edge research, innovative solutions, and a collaborative space
                   for scientists, policymakers, and industry leaders to address one of the most
                   pressing challenges of our time.
                </p>
+               <button>
+                  <a href="#" className="inline-block px-5 py-3 bg-[#FEFAE1] text-[#192318] font-semibold rounded-lg transition-colors duration-300">
+                     Check out our research
+                  </a>
+               </button>
             </div>
          </div>
       </section>

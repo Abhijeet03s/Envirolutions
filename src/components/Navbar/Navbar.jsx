@@ -12,7 +12,7 @@ function Navbar() {
                <div className="flex items-center">
                   <img src={brandLogo} alt="Logo" className="h-8 mr-2" />
                </div>
-               <div className="hidden md:flex items-center space-x-10 text-[#FEFAE1] text-bold">
+               <div className="hidden md:flex items-center space-x-6 text-[#FEFAE1] text-bold">
                   <a href="#" className="hover:bg-[#FEFAE1]/10 px-4 py-2 rounded-lg transition duration-300">About Us</a>
                   <a href="#" className="hover:bg-[#FEFAE1]/10 px-4 py-2 rounded-lg transition duration-300">Our Product</a>
                   <a href="#" className="hover:bg-[#FEFAE1]/10 px-4 py-2 rounded-lg transition duration-300">Blogs</a>

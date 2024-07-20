@@ -40,56 +40,56 @@ const options = {
 
 const Dashboard = () => {
    return (
-      <div className="container mx-auto max-w-7xl px-10 py-16">
-         <h1 className="text-2xl font-bold mb-4">Carbon Credit Dashboard</h1>
+      <div className="container mx-auto max-w-7xl px-10 py-16 md:px-0">
+         <h1 className="text-4xl font-bold mb-4 text-[#1E1E1E]">Carbon Credit Dashboard</h1>
          <div className="dashboard-content grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="left-content space-y-4">
                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="card bg-white p-4 rounded-lg shadow-md">
-                     <h2 className="text-xl font-semibold">Total Carbon Credits</h2>
+                     <h2 className="text-md font-semibold">Total Carbon Credits</h2>
                      <p className="text-3xl font-bold text-green-500">1,180</p>
                      <p className="text-sm text-gray-500">Credits this year</p>
                   </div>
                   <div className="card bg-white p-4 rounded-lg shadow-md">
-                     <h2 className="text-xl font-semibold">CO2 Reduction</h2>
+                     <h2 className="text-md font-semibold">CO2 Reduction</h2>
                      <p className="text-3xl font-bold text-blue-500">523</p>
                      <p className="text-sm text-gray-500">Tons reduced</p>
                   </div>
                   <div className="card bg-white p-4 rounded-lg shadow-md">
-                     <h2 className="text-xl font-semibold">Projects</h2>
+                     <h2 className="text-md font-semibold">Projects</h2>
                      <p className="text-3xl font-bold text-yellow-500">17</p>
                      <p className="text-sm text-gray-500">Funded</p>
                   </div>
                </div>
                <div className="sustainability bg-white p-4 rounded-lg shadow-md">
-                  <h2 className="text-xl font-semibold">Sustainability Goals</h2>
+                  <h2 className="text-xl font-semibold text-[#1E1E1E]">Sustainability Goals</h2>
                   <div className="mt-2">
                      <div className="goal">
                         <p className="text-sm">Reforestation</p>
-                        <div className="progress-bar bg-gray-200 rounded-full h-4 mb-4">
-                           <div className="progress bg-green-500 h-4 rounded-full" style={{ width: '75%' }}></div>
+                        <div className="progress-bar bg-gray-200 rounded-full h-3 mb-4">
+                           <div className="progress bg-green-500 h-3 rounded-full" style={{ width: '75%' }}></div>
                         </div>
-                        <p className="text-sm text-right text-green-500">75% complete</p>
+                        <p className="text-sm text-right text-green-500 mt-[-0.7rem]">75% complete</p>
                      </div>
                      <div className="goal">
                         <p className="text-sm">Renewable Energy</p>
-                        <div className="progress-bar bg-gray-200 rounded-full h-4 mb-4">
-                           <div className="progress bg-blue-500 h-4 rounded-full" style={{ width: '60%' }}></div>
+                        <div className="progress-bar bg-gray-200 rounded-full h-3 mb-4">
+                           <div className="progress bg-blue-500 h-3 rounded-full" style={{ width: '60%' }}></div>
                         </div>
-                        <p className="text-sm text-right text-blue-500">60% complete</p>
+                        <p className="text-sm text-right text-blue-500 mt-[-0.7rem]">60% complete</p>
                      </div>
                      <div className="goal">
                         <p className="text-sm">Waste Reduction</p>
-                        <div className="progress-bar bg-gray-200 rounded-full h-4 mb-4">
-                           <div className="progress bg-yellow-500 h-4 rounded-full" style={{ width: '40%' }}></div>
+                        <div className="progress-bar bg-gray-200 rounded-full h-3 mb-4">
+                           <div className="progress bg-yellow-500 h-3 rounded-full" style={{ width: '40%' }}></div>
                         </div>
-                        <p className="text-sm text-right text-yellow-500">40% complete</p>
+                        <p className="text-sm text-right text-yellow-500 mt-[-0.7rem]">40% complete</p>
                      </div>
                   </div>
                </div>
             </div>
             <div className="right-content bg-white p-4 rounded-lg shadow-md">
-               <h2 className="text-xl font-semibold">Monthly Credits & CO2 Reduction</h2>
+               <h2 className="text-xl font-semibold mb-1">Monthly Credits & CO2 Reduction</h2>
                <Line data={data} options={options} />
             </div>
          </div>
