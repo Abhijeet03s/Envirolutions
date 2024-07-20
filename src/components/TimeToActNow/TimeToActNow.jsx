@@ -1,6 +1,6 @@
 const TimeToActNow = () => {
    return (
-      <div className="relative bg-cover bg-center py-24" style={{ backgroundImage: "url('/public/plant.jpg')" }}>
+      <div className="relative bg-cover bg-center py-24" style={{ backgroundImage: "url('/plant.jpg')" }}>
          <div className="absolute bg-[#2f2727] inset-0 opacity-50"></div>
          <div className="container mx-auto px-4 relative z-10">
             <div className="text-center max-w-2xl mx-auto">
