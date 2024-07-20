@@ -2,7 +2,7 @@
 const ResearchDiscovery = () => {
    return (
       <section className="pt-16 pb-8 bg-[#002A16]">
-         <div className="container mx-auto px-4 flex flex-col-reverse lg:flex-row items-start">
+         <div className="container mx-auto max-w-7xl px-10 py-16 flex flex-col-reverse lg:flex-row items-start">
             <div className="w-full lg:w-1/2 mb-8 lg:mb-0 ">
                <div className="grid gap-8">
                   <div className="bg-white rounded-lg shadow-md p-4">

@@ -4,24 +4,17 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/f
 const Footer = () => {
    return (
       <footer className="bg-[#315343] text-white py-12 px-6 md:px-12">
-         <div className="container mx-auto">
+         <div className="container mx-auto max-w-7xl lg:px-10">
             <div className="flex flex-col md:flex-row justify-between items-start mb-8 md:gap-24">
                <div className="mb-8 md:mb-0">
                   <img src={brandLogo} alt="Logo" className="h-10" />
                </div>
                <div className="flex-grow">
-                  <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+                  <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                      <div>
                         <h4 className="font-bold text-xl">Services</h4>
                         <ul className="mt-4 space-y-2">
                            <li><a href="#" className="text-[#F5F5F5]">SC-Services</a></li>
-                        </ul>
-                     </div>
-                     <div>
-                        <h4 className="font-bold text-xl">Company</h4>
-                        <ul className="mt-4 space-y-2">
-                           <li><a href="#" className="text-[#F5F5F5]">Careers</a></li>
-                           <li><a href="#" className="text-[#F5F5F5]">Our approach</a></li>
                         </ul>
                      </div>
                      <div>

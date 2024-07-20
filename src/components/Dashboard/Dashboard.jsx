@@ -1,6 +1,6 @@
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
-import './Dashboard.css';
+
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
@@ -40,7 +40,7 @@ const options = {
 
 const Dashboard = () => {
    return (
-      <div className="dashboard-container container mx-auto p-4">
+      <div className="container mx-auto max-w-7xl px-10 py-16">
          <h1 className="text-2xl font-bold mb-4">Carbon Credit Dashboard</h1>
          <div className="dashboard-content grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="left-content space-y-4">
