@@ -6,7 +6,7 @@ const ContactUsPage = () => {
       name: '',
       email: '',
       subject: '',
-      message: ''
+      query: ''
    });
    const [errors, setErrors] = useState({});
 
@@ -24,7 +24,7 @@ const ContactUsPage = () => {
       if (!formData.email.trim()) newErrors.email = 'Email is required';
       else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = 'Email is invalid';
       if (!formData.subject.trim()) newErrors.subject = 'Subject is required';
-      if (!formData.message.trim()) newErrors.message = 'Message is required';
+      if (!formData.query.trim()) newErrors.query = 'Query is required';
       setErrors(newErrors);
       return Object.keys(newErrors).length === 0;
    };
@@ -35,7 +35,7 @@ const ContactUsPage = () => {
          // handle the form submission
          console.log('Form submitted:', formData);
          // reset form 
-         setFormData({ name: '', email: '', subject: '', message: '' });
+         setFormData({ name: '', email: '', subject: '', query: '' });
       }
    };
 
@@ -43,7 +43,7 @@ const ContactUsPage = () => {
       <div className="min-h-screen bg-[#fefae1] py-12 px-6 md:px-4 lg:px-8">
          <div className="max-w-xl mx-auto">
             <div className="text-center mb-6">
-               <h1 className="text-4xl font-extrabold text-green-800 mb-2">Contact Us</h1>
+               <h1 className="font-inter text-4xl font-extrabold text-green-800 mb-2">Contact Us</h1>
             </div>
 
             <div className="bg-[#fefcfc] shadow-xl rounded-lg overflow-hidden">
@@ -90,17 +90,17 @@ const ContactUsPage = () => {
                         {errors.subject && <p className="text-red-500 text-xs mt-1">{errors.subject}</p>}
                      </div>
                      <div className="mb-6">
-                        <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                        <label htmlFor="query" className="block text-sm font-medium text-gray-700 mb-1">Your Query</label>
                         <textarea
-                           id="message"
-                           name="message"
-                           value={formData.message}
+                           id="query"
+                           name="query"
+                           value={formData.query}
                            onChange={handleChange}
                            rows="4"
-                           className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 ${errors.message ? 'border-red-500' : 'border-gray-300'}`}
-                           placeholder="Your message here..."
+                           className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 ${errors.query ? 'border-red-500' : 'border-gray-300'}`}
+                           placeholder="Your query here..."
                         ></textarea>
-                        {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
+                        {errors.query && <p className="text-red-500 text-xs mt-1">{errors.query}</p>}
                      </div>
                      <button
                         type="submit"

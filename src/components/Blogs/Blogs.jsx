@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import PropTypes from 'prop-types';
 import { Calendar, Clock, ThumbsUp, MessageCircle, Mail } from 'lucide-react';
+import PropTypes from 'prop-types';
 
 const blogPosts = [
    {
@@ -99,7 +99,7 @@ const BlogPage = () => {
       <div className="bg-[#fefae1]" >
          <div className="container max-w-7xl mx-auto px-6 py-8 md:px-4">
             <header className="text-green-800 text-center mb-8">
-               <h1 className="text-4xl font-extrabold mb-2">Our Blogs</h1>
+               <h1 className="font-inter text-4xl font-extrabold mb-2">Our Blogs</h1>
                <p className="font-medium md:text-lg">Explore our latest thoughts on sustainability, green technologies, and environmental conservation.</p>
             </header>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

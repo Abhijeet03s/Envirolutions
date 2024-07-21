@@ -40,7 +40,7 @@ const options = {
 const Dashboard = () => {
    return (
       <div className="container mx-auto max-w-7xl px-8 py-16 md:py-32 md:px-0">
-         <h1 className="text-4xl md:text-5xl font-bold mb-12 text-[#1E1E1E] text-center">Carbon Credit Dashboard</h1>
+         <h1 className="font-inter text-4xl md:text-5xl font-bold mb-12 text-[#1E1E1E] text-center">Carbon Credit Dashboard</h1>
          <div className="dashboard-content grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             <div className="left-content space-y-4">
                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

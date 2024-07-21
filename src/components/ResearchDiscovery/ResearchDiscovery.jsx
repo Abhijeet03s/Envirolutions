@@ -1,12 +1,12 @@
 const ResearchDiscovery = () => {
    return (
-      <section className="bg-[#002A16] ">
+      <section className="bg-[#002A16]">
          <div className="container mx-auto max-w-7xl px-0 pt-14 md:py-32 flex flex-col lg:flex-row items-start">
             <div className="order-2 lg:order-1 w-full lg:w-1/2 mb-8 lg:mb-0 px-8 md:pr-10">
                <div className="grid gap-8">
-                  <div className="bg-white rounded-lg shadow-md p-4">
-                     <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E]">Our Focus Areas</h3>
-                     <ul className="list-disc pl-5 text-[#757575] text-sm">
+                  <div className="bg-white rounded-lg shadow-md p-4 hover:bg-[#65ae76] hover:text-[#FEFAE1] group transition duration-300">
+                     <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E] group-hover:text-[#FEFAE1]">Our Focus Areas</h3>
+                     <ul className="list-disc pl-5 text-[#757575] text-sm group-hover:text-[#FEFAE1]">
                         <li className="mb-2">
                            Circular Economy: Exploring systems and technologies that minimize waste and maximize resource efficiency.
                         </li>
@@ -15,9 +15,9 @@ const ResearchDiscovery = () => {
                         </li>
                      </ul>
                   </div>
-                  <div className="bg-white rounded-lg shadow-md p-6">
-                     <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E]">What We Offer</h3>
-                     <ul className="list-disc pl-5 text-[#757575] text-sm">
+                  <div className="bg-white rounded-lg shadow-md p-4 hover:bg-[#65ae76] hover:text-[#FEFAE1] group transition duration-300">
+                     <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E] group-hover:text-[#FEFAE1]">What We Offer</h3>
+                     <ul className="list-disc pl-5 text-[#757575] text-sm group-hover:text-[#FEFAE1]">
                         <li className="mb-2">
                            Innovation Showcase: Explore cutting-edge technologies and methodologies being developed and implemented worldwide.
                         </li>
@@ -26,9 +26,9 @@ const ResearchDiscovery = () => {
                         </li>
                      </ul>
                   </div>
-                  <div className="bg-white rounded-lg shadow-md p-6">
-                     <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E]">Why Join Our Platform?</h3>
-                     <ul className="list-disc pl-5 text-[#757575] text-sm">
+                  <div className="bg-white rounded-lg shadow-md p-4 hover:bg-[#65ae76] hover:text-[#FEFAE1] group transition duration-300">
+                     <h3 className="text-xl font-semibold mb-4 text-[#1E1E1E] group-hover:text-[#FEFAE1]">Why Join Our Platform?</h3>
+                     <ul className="list-disc pl-5 text-[#757575] text-sm group-hover:text-[#FEFAE1]">
                         <li className="mb-2">
                            Real-World Impact: Our research directly informs policy decisions and industry practices, creating tangible environmental benefits.
                         </li>
@@ -40,7 +40,7 @@ const ResearchDiscovery = () => {
                </div>
             </div>
             <div className="order-1 lg:order-2 w-full lg:w-1/2 lg:pl-12 text-[#FEFAE1] mb-8 lg:mb-0 px-8 md:pl-10">
-               <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center md:text-left">Research and Discovery</h2>
+               <h2 className="font-inter text-4xl md:text-5xl font-bold mb-8 text-center md:text-left">Research and Discovery</h2>
                <p className="mb-4 text-md text-center md:text-left">
                   Welcome to our Research and Discovery platform, where we dive deep into the
                   critical issues of waste management and sustainability. Our mission is to
