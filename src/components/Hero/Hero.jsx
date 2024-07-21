@@ -26,11 +26,11 @@ const Hero = () => {
                <p className="mt-6 text-[#FEFAE1] text-[0.9375rem] md:text-md">
                   SustainCred is helping large and complex organizations measure their impact, identify credible levers and reduce at scale, leveraging the power of AI.
                </p>
-               <div className="mt-10 flex space-x-4">
-                  <a href="#" className="inline-block px-6 py-3 bg-[#FEFAE1] text-[#192318] font-semibold rounded-lg transition-colors duration-300 hover:bg-[#064627] hover:text-[#FEFAE1]">
+               <button className="mt-10 flex space-x-4">
+                  <a href="#" className="inline-block px-6 py-5 bg-[#FEFAE1] text-lg text-[#192318] font-semibold rounded-2xl   hover:bg-[#064627] hover:text-[#FEFAE1] transition-all duration-300 transform hover:scale-110">
                      Request a demo
                   </a>
-               </div>
+               </button>
             </div>
          </div>
       </section>
