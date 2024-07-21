@@ -13,7 +13,7 @@ const Hero = () => {
    };
    return (
       <section className="bg-gradient-to-r from-[#071204] via-[#041e02] to-[#041e02]">
-         <div className="max-w-7xl mx-auto gap-x-10 px-10 py-16 md:py-32 md:flex md:items-center md:px-0">
+         <div className="max-w-7xl mx-auto gap-x-10 px-8 py-16 md:py-32 md:flex md:items-center md:px-0">
             <div className="md:mt-0 md:w-1/2">
                <Lottie
                   options={defaultOptions}

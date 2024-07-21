@@ -70,9 +70,9 @@ const OurProducts = () => {
 
    return (
       <div className="bg-[#fefae1] min-h-screen">
-         <div className="container max-w-7xl mx-auto p-6">
+         <div className="container max-w-7xl mx-auto p-8 md:py-8 ">
             <header className="text-green-800 text-center mb-8">
-               <h1 className="text-4xl font-extrabold mb-2">Sustain-Mart: Our Products</h1>
+               <h1 className="text-4xl font-extrabold mb-2">Sustain-Cred Products</h1>
                <p className="font-medium md:text-lg">Empowering Sustainability Through Innovative Solutions</p>
             </header>
 

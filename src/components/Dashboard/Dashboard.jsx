@@ -39,7 +39,7 @@ const options = {
 
 const Dashboard = () => {
    return (
-      <div className="container mx-auto max-w-7xl px-10 py-16 md:py-32 md:px-0">
+      <div className="container mx-auto max-w-7xl px-8 py-16 md:py-32 md:px-0">
          <h1 className="text-4xl md:text-5xl font-bold mb-12 text-[#1E1E1E] text-center">Carbon Credit Dashboard</h1>
          <div className="dashboard-content grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             <div className="left-content space-y-4">
@@ -87,8 +87,8 @@ const Dashboard = () => {
                   </div>
                </div>
             </div>
-            <div className="right-content bg-white p-4 rounded-lg shadow-md">
-               <h2 className="md:text-xl font-bold mb-1">Monthly Credits & CO2 Reduction</h2>
+            <div className=" bg-white pl-4 rounded-lg shadow-md">
+               <h2 className="md:text-xl font-bold pb-4">Monthly Credits & CO2 Reduction</h2>
                <Line data={data} options={options} />
             </div>
          </div>

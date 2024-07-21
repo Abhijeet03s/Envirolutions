@@ -2,6 +2,20 @@
    display: none;
 }
 
+.mobile-menu {
+   transition: max-height 0.3s ease-in-out;
+   overflow: hidden;
+}
+
+.mobile-menu.open {
+   max-height: 500px;
+
+}
+
+.mobile-menu.closed {
+   max-height: 0;
+}
+
 @media (max-width: 768px) {
    .mobile-menu {
       display: block;

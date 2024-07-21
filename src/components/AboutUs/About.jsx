@@ -4,11 +4,11 @@ const AboutUs = () => {
    return (
       <div className="bg-[#fefae1] min-h-screen">
          <div className="container max-w-7xl mx-auto p-10 md:p-8">
-            <header className="text-green-800 text-center mb-20">
+            <header className="text-green-800 text-center mb-12 md:mb-20">
                <h1 className="text-4xl font-extrabold mb-2">About Us</h1>
                <p className="font-medium md:text-lg">Dedicated to Sustainability and Innovation</p>
             </header>
-            <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">
+            <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8">
                <div className="md:w-1/2">
                   <h2 className="text-4xl md:text-5xl font-bold text-[#65ae76]">Who</h2>
                   <h2 className="text-4xl md:text-5xl font-bold">are we?</h2>

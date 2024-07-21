@@ -1,6 +1,6 @@
 const SustainMart = () => {
    return (
-      <section className="px-10 py-16 md:py-32 bg-[#FEFAE1] md:px-0">
+      <section className="px-8 py-16 md:py-32 bg-[#FEFAE1] md:px-0">
          <div className="container max-w-7xl mx-auto px-0 flex flex-col lg:flex-row items-start">
             <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
                <h2 className="text-4xl md:text-5xl font-bold mb-8 text-[#1E1E1E] text-center md:text-left">Sustain-Mart</h2>
