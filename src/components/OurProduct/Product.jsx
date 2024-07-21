@@ -71,13 +71,13 @@ const OurProducts = () => {
    return (
       <div className="bg-[#fefae1] min-h-screen">
          <div className="container max-w-7xl mx-auto p-6">
-            <header className="bg-green-700 text-[#f5fffc] text-center p-6 rounded-lg mb-8">
-               <h1 className="text-3xl md:text-4xl font-bold mb-2">Sustain-Mart: Our Products</h1>
-               <p className="md:text-lg">Empowering Sustainability Through Innovative Solutions</p>
+            <header className="text-green-800 text-center mb-8">
+               <h1 className="text-4xl font-extrabold mb-2">Sustain-Mart: Our Products</h1>
+               <p className="font-medium md:text-lg">Empowering Sustainability Through Innovative Solutions</p>
             </header>
 
             <main>
-               <p className="mb-8 text-gray-700 text-sm md:text-base">
+               <p className="mb-4 text-gray-700 text-sm">
                   At Sustain-Mart, we offer a range of products and services designed to help individuals and businesses reduce their carbon footprint and contribute to a more sustainable future. Explore our key offerings below:
                </p>
 

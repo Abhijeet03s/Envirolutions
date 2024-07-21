@@ -40,10 +40,10 @@ const ContactUsPage = () => {
    };
 
    return (
-      <div className="min-h-screen bg-[#fefae1] py-12 px-6 md:px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen bg-[#fefae1] py-12 px-6 md:px-4 lg:px-8">
          <div className="max-w-xl mx-auto">
             <div className="text-center mb-6">
-               <h1 className="text-4xl font-bold text-green-800 mb-2">Contact Us</h1>
+               <h1 className="text-4xl font-extrabold text-green-800 mb-2">Contact Us</h1>
             </div>
 
             <div className="bg-[#fefcfc] shadow-xl rounded-lg overflow-hidden">

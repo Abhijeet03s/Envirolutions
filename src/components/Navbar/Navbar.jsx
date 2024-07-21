@@ -1,10 +1,15 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import brandLogo from '../../assets/brand-logo.svg';
 import '../Navbar/Navbar.css';
 
 function Navbar() {
    const [isOpen, setIsOpen] = useState(false);
+   const location = useLocation();
+
+   const getLinkClass = (path) => {
+      return location.pathname === path ? 'bg-[#d4d2c0] text-[#192318]' : 'hover:bg-[#FEFAE1]/10 transition duration-300';
+   };
 
    return (
       <nav className="bg-[#192318] shadow-md">
@@ -15,17 +20,17 @@ function Navbar() {
                      <img src={brandLogo} alt="Logo" className="h-8 mr-2" />
                   </Link>
                </div>
-               <div className="hidden md:flex items-center space-x-6 text-[#FEFAE1] text-bold">
-                  <Link to="/about-us" className="hover:bg-[#FEFAE1]/10 px-4 py-2 rounded-lg transition duration-300">
+               <div className="hidden md:flex items-center space-x-6 text-[#FEFAE1] font-bold">
+                  <Link to="/about-us" className={`px-4 py-2 rounded-lg ${getLinkClass('/about-us')}`}>
                      About Us
                   </Link>
-                  <Link to="/our-products" className="hover:bg-[#FEFAE1]/10 px-4 py-2 rounded-lg transition duration-300">
+                  <Link to="/our-products" className={`px-4 py-2 rounded-lg ${getLinkClass('/our-products')}`}>
                      Our Product
                   </Link>
-                  <Link to="/blogs" className="hover:bg-[#FEFAE1]/10 px-4 py-2 rounded-lg transition duration-300">
+                  <Link to="/blogs" className={`px-4 py-2 rounded-lg ${getLinkClass('/blogs')}`}>
                      Blogs
                   </Link>
-                  <Link to="/contact-us" className="hover:bg-[#FEFAE1]/10 px-4 py-2 rounded-lg transition duration-300">
+                  <Link to="/contact-us" className={`px-4 py-2 rounded-lg ${getLinkClass('/contact-us')}`}>
                      Contact
                   </Link>
                   <button>
@@ -49,30 +54,30 @@ function Navbar() {
                </div>
             </div>
          </div>
-         <div className={`mobile-menu ${isOpen ? "block" : "hidden"} md:hidden text-[#FEFAE1] text-bold`}>
+         <div className={`mobile-menu ${isOpen ? "block" : "hidden"} md:hidden text-[#FEFAE1] font-bold`}>
             <ul className="px-4 py-2">
                <li className="mb-2">
-                  <Link to="/about-us" className="block px-4 py-2 rounded-lg hover:bg-[#FEFAE1]/10 hover:text-[#FEFAE1] transition duration-300">
+                  <Link to="/about-us" className={`block px-4 py-2 rounded-lg ${getLinkClass('/about-us')}`}>
                      About Us
                   </Link>
                </li>
                <li className="mb-2">
-                  <Link to="/our-products" className="block px-4 py-2 rounded-lg hover:bg-[#FEFAE1]/10 hover:text-[#FEFAE1] transition duration-200">
+                  <Link to="/our-products" className={`block px-4 py-2 rounded-lg ${getLinkClass('/our-products')}`}>
                      Our Product
                   </Link>
                </li>
                <li className="mb-2">
-                  <Link to="/blogs" className="block px-4 py-2 rounded-lg hover:bg-[#FEFAE1]/10 hover:text-[#FEFAE1] transition duration-200">
+                  <Link to="/blogs" className={`block px-4 py-2 rounded-lg ${getLinkClass('/blogs')}`}>
                      Blogs
                   </Link>
                </li>
                <li className="mb-2">
-                  <Link to="/contact-us" className="block px-4 py-2 rounded-lg hover:bg-[#FEFAE1]/10 hover:text-[#FEFAE1] transition duration-200">
+                  <Link to="/contact-us" className={`block px-4 py-2 rounded-lg ${getLinkClass('/contact-us')}`}>
                      Contact
                   </Link>
                </li>
                <li>
-                  <Link to="/sign-in" className="block px-4 py-2 rounded-lg hover:bg-[#FEFAE1]/10 hover:text-[#FEFAE1] transition duration-200">
+                  <Link to="/sign-in" className="block px-4 py-2 rounded-lg hover:bg-[#FEFAE1]/10 hover:text-[#FEFAE1] transition duration-300">
                      Sign In
                   </Link>
                </li>
