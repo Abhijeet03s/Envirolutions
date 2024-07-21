@@ -1,9 +1,9 @@
-import brandLogo from '../../assets/tight-bounds.svg';
+import brandLogo from '../../assets/brand-logo-footer.svg';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
    return (
-      <footer className="bg-[#315343] text-white py-12 px-6 md:px-12">
+      <footer className="bg-[#315343] text-white p-6 md:p-12">
          <div className="container mx-auto max-w-7xl lg:px-10">
             <div className="flex flex-col md:flex-row justify-between items-start mb-8 md:gap-24">
                <div className="mb-8 md:mb-0">
