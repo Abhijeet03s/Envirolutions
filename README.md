@@ -4,9 +4,9 @@
 
 ## About The Project
 
-- [Website Link](https://energy-sustain.vercel.app/)
+- **Website Link** - [Energy Sustain](https://energy-sustain.vercel.app/)
 
-- This is just a clone.
+- **This is merely a variation of a clone.**
 
 - This is a company assignment for the SustainCred.
 
@@ -21,6 +21,7 @@
 - React Router
 - Tailwind CSS
 - Chart.js
+- Figma
 
 ## Features
 
@@ -36,31 +37,31 @@
 
 ### 1. Home Page
 
-![alt text](image.png)
+![alt text](./src/assets/Screenshots/homepage.png)
 
 ### 2. About Us Page
 
-![alt text](image-1.png)
+![alt text](./src/assets/Screenshots/aboutus.png)
 
 ### 3. Our Products Page
 
-![alt text](image-2.png)
+![alt text](./src/assets/Screenshots/products.png)
 
 ### 4. Blogs Page
 
-![alt text](image-3.png)
+![alt text](./src/assets/Screenshots/blogs.png)
+
+### 4. Contact Us Page
+
+![alt text](./src/assets/Screenshots/contact.png)
 
 ## Figma File
 
-I have attached the figma file for the website.
-I just give it a try although I am not sure if it is good or not.
+[Figma File](https://www.figma.com/design/2elXsZPZimpT1OUajQbiE8/React-Project?node-id=0-1&t=NIoOUNKcRWnKJ5TC-1)
 
-<!-- ![alt text](figma.png) -->
+- I have attached the figma file for the website.
+- I just give it a try although.
 
-## License
-
-This project is licensed under the MIT License.
-
-## Authors
+## Author👨‍💻
 
 [Abhijeet-Sharma](https://github.com/Abhijeet03s)

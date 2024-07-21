@@ -51,7 +51,7 @@ const ResearchDiscovery = () => {
                <div className="hidden lg:block">
                   <button>
                      <a href="#" className="inline-block px-5 py-3 bg-[#FEFAE1] text-[#192318] font-semibold rounded-lg transition-colors duration-300">
-                        Check out our research
+                        Checkout our research
                      </a>
                   </button>
                </div>
