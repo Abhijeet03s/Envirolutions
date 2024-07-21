@@ -1,4 +1,6 @@
-# SustainCred Company Assignment
+# Hi there 👋
+
+## SustainCred Company Assignment
 
 ## About The Project
 
@@ -19,6 +21,16 @@
 - React Router
 - Tailwind CSS
 - Chart.js
+
+## Features
+
+- Home Page
+- About Us Page
+- Our Products Page
+- Blogs Page
+- Contact Us Page
+- Sign In Page
+- Mobile Responsive Website
 
 ## Screenshots
 
