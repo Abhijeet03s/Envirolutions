@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { Calendar, Clock, ThumbsUp, MessageCircle, Mail } from 'lucide-react';
 import PropTypes from 'prop-types';
+import blogTreeLightBulb from '../../assets/blogs-image/blogs-tree-light-bulb.jpg';
+import blogsEnvironmentProject from '../../assets/blogs-image/blogs-environment-project.jpg';
+import blogsSavingEnergy from '../../assets/blogs-image/blogs-saving-energy.jpg';
 
 const blogPosts = [
    {
@@ -12,7 +15,7 @@ const blogPosts = [
       readTime: "5 min read",
       likes: 42,
       comments: 8,
-      image: "/blogs-image/blogs-tree-light-bulb.jpg"
+      image: blogTreeLightBulb
    },
    {
       id: 2,
@@ -23,7 +26,7 @@ const blogPosts = [
       readTime: "8 min read",
       likes: 37,
       comments: 12,
-      image: "/blogs-image/blogs-environment-project.jpg"
+      image: blogsEnvironmentProject
    },
    {
       id: 3,
@@ -34,7 +37,7 @@ const blogPosts = [
       readTime: "6 min read",
       likes: 28,
       comments: 5,
-      image: "/blogs-image/blogs-saving-energy.jpg"
+      image: blogsSavingEnergy
    }
 ];
 
