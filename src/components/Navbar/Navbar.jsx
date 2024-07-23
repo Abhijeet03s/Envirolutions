@@ -14,7 +14,7 @@ function Navbar() {
    const handleLinkClick = () => {
       setTimeout(() => {
          setIsOpen(false);
-      }, 30); // 300ms delay
+      }, 30);
    };
 
    return (

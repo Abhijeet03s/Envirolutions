@@ -9,15 +9,15 @@ const data = {
       {
          label: 'Carbon Credits',
          data: [120, 140, 160, 180, 200, 220],
-         borderColor: '#10b981', // Tailwind green-500
-         backgroundColor: 'rgba(16, 185, 129, 0.5)', // Tailwind green-500
+         borderColor: '#10b981',
+         backgroundColor: 'rgba(16, 185, 129, 0.5)',
          fill: false,
       },
       {
          label: 'CO2 Reduction',
          data: [60, 70, 80, 90, 100, 110],
-         borderColor: '#3b82f6', // Tailwind blue-500
-         backgroundColor: 'rgba(59, 130, 246, 0.5)', // Tailwind blue-500
+         borderColor: '#3b82f6',
+         backgroundColor: 'rgba(59, 130, 246, 0.5)',
          fill: false,
       },
    ],

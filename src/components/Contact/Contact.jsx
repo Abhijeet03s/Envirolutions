@@ -32,9 +32,7 @@ const ContactUsPage = () => {
    const handleSubmit = (e) => {
       e.preventDefault();
       if (validateForm()) {
-         // handle the form submission
          console.log('Form submitted:', formData);
-         // reset form 
          setFormData({ name: '', email: '', subject: '', query: '' });
       }
    };
