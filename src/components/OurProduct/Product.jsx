@@ -72,13 +72,12 @@ const OurProducts = () => {
       <div className="bg-[#fefae1] min-h-screen">
          <div className="container max-w-7xl mx-auto p-8 md:py-8 ">
             <header className="text-green-800 text-center mb-8">
-               <h1 className="font-inter text-4xl font-extrabold mb-2">Sustain-Mart Products</h1>
+               <h1 className="font-inter text-4xl font-extrabold mb-2">Envirolutions Products</h1>
                <p className="font-medium md:text-lg">Empowering Sustainability Through Innovative Solutions</p>
             </header>
-
             <main>
                <p className="mb-4 text-gray-700 text-sm">
-                  At Sustain-Mart, we offer a range of products and services designed to help individuals and businesses reduce their carbon footprint and contribute to a more sustainable future. Explore our key offerings below:
+                  At Envirolutions, we offer a range of products and services designed to help individuals and businesses reduce their carbon footprint and contribute to a more sustainable future. Explore our key offerings below:
                </p>
 
                {productCategories.map((category, index) => (

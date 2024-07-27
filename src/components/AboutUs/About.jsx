@@ -28,7 +28,7 @@ const AboutUs = () => {
                   <h2 className="text-4xl md:text-5xl font-bold text-[#65ae76]">What</h2>
                   <h2 className="text-4xl md:text-5xl font-bold">do we do?</h2>
                   <p className="mt-4 w-full md:w-10/12 text-sm">
-                     Sustain cred helps small medium business in renewable energy sector to measure their carbon credits and consult in the verification process to register them in voluntary carbon credit markets.
+                     Envirolutions helps small medium business in renewable energy sector to measure their carbon credits and consult in the verification process to register them in voluntary carbon credit markets.
                   </p>
                </div>
             </div>

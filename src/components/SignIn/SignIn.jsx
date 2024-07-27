@@ -28,7 +28,7 @@ const SignInPage = () => {
       <div className="min-h-screen bg-[#fefae1] flex items-center justify-center px-8 md:p-4">
          <div className="max-w-md w-full bg-[#f5f5f5] rounded-lg shadow-xl overflow-hidden">
             <div className="bg-green-700 px-6 py-8 text-white text-center">
-               <h1 className="font-inter text-2xl md:text-3xl font-bold mb-2">Welcome to Sustain-Cred</h1>
+               <h1 className="font-inter text-2xl md:text-3xl font-bold mb-2">Welcome to Envirolutions</h1>
                <p className='text-ms md:text-md'>Sign in to access your sustainable future</p>
             </div>
             <form onSubmit={handleSubmit} className="px-6 py-8">

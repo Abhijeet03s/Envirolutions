@@ -47,7 +47,7 @@ const Footer = () => {
 
             <div className="border-t border-gray-700 pt-8">
                <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
-                  <p className="text-sm mb-4 md:mb-0">&copy; 2024 SustainCred, All Rights Reserved</p>
+                  <p className="text-sm mb-4 md:mb-0">&copy; 2024 Envirolutions, All Rights Reserved</p>
                   <div className="flex space-x-4">
                      <a href="#" className="text-[#F5F5F5]">Privacy Policy</a>
                      <a href="#" className="text-[#F5F5F5]">Terms & Conditions</a>

@@ -41,7 +41,7 @@ const SustainSolutions = () => {
          <div className="max-w-7xl mx-auto">
             <h2 className="font-inter text-4xl md:text-5xl font-bold mb-4 text-center text-[#1E1E1E]">Sustain Solutions: <span >Carbon Accounting Methods</span></h2>
             <p className="text-md text-[#343330] mb-12 text-center max-w-3xl mx-auto">
-               At Sustain Solutions, we employ cutting-edge carbon accounting methods to
+               At Envirolutions Solutions, we employ cutting-edge carbon accounting methods to
                help businesses measure and reduce their environmental impact
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

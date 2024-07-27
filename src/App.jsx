@@ -5,7 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Dashboard from './components/Dashboard/Dashboard';
 import SustainSolutions from "./components/Sustain-Solutions/Sustain";
 import ResearchDiscovery from './components/ResearchDiscovery/ResearchDiscovery';
-import SustainMart from './components/SustainMart/SustainMart';
+import EnvirolutionsMart from './components/EnvirolutionsMart/EnvirolutionsMart';
 import TimeToActNow from './components/TimeToActNow/TimeToActNow';
 import Footer from './components/Footer/Footer';
 import AboutUs from './components/AboutUs/About';
@@ -26,7 +26,7 @@ function App() {
               <Dashboard />
               <SustainSolutions />
               <ResearchDiscovery />
-              <SustainMart />
+              <EnvirolutionsMart />
               <TimeToActNow />
               <Footer />
             </>

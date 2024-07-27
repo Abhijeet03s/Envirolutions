@@ -1,11 +1,11 @@
-const SustainMart = () => {
+const EnvirolutionsMart = () => {
    return (
       <section className="px-8 py-16 md:py-32 bg-[#FEFAE1] md:px-0">
          <div className="container max-w-7xl mx-auto px-0 flex flex-col lg:flex-row items-start">
             <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-               <h2 className="font-inter text-4xl md:text-5xl font-bold mb-8 text-[#1E1E1E] text-center md:text-left">Sustain-Mart</h2>
+               <h2 className="font-inter text-4xl md:text-5xl font-bold mb-8 text-[#1E1E1E] text-center md:text-left">Envirolutions-Mart</h2>
                <p className="text-[#343330] mb-4 text-md text-center md:text-left">
-                  At Sustain-Mart, we believe that every action counts in the fight against climate change. Our innovative marketplace brings together individuals, businesses, and organizations committed to reducing their carbon footprint and supporting sustainable practices.
+                  At Envirolutions-Mart, we believe that every action counts in the fight against climate change. Our innovative marketplace brings together individuals, businesses, and organizations committed to reducing their carbon footprint and supporting sustainable practices.
                </p>
                <div className="hidden lg:block">
                   <button>
@@ -75,4 +75,4 @@ const SustainMart = () => {
    );
 };
 
-export default SustainMart;
+export default EnvirolutionsMart;
