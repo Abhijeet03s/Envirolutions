@@ -2,7 +2,7 @@
 
 ## About The Project
 
-- **Website Link** - [Envirolutions](https://energy-sustain.vercel.app/)
+- **Website Link** - [Envirolutions](https://envirolutions.vercel.app/)
 
 - It is a platform dedicated to empowering organizations to measure and reduce their carbon footprint using advanced AI-driven solutions. The website features a modern and professional design with a focus on sustainability and carbon credits.
 
