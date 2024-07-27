@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/sign-in" element={<SignIn />} />
         </Routes>
       </div>
+      <Analytics />
     </Router>
   );
 }
