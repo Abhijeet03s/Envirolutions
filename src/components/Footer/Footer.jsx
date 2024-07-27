@@ -1,4 +1,4 @@
-import brandLogo from '../../assets/brand-logo-footer.svg';
+import brandLogo from '../../assets/envirolutions-logo-footer.svg';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
          <div className="container mx-auto max-w-7xl lg:px-10">
             <div className="flex flex-col md:flex-row justify-between items-start mb-8 md:gap-24">
                <div className="mb-8 md:mb-0">
-                  <img src={brandLogo} alt="Logo" className="h-8" />
+                  <img src={brandLogo} alt="Logo" className="h-14" />
                </div>
                <div className="flex-grow">
                   <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

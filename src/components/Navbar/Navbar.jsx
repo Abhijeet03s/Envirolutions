@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import brandLogo from '../../assets/brand-logo.svg';
+import brandLogo from '../../assets/envirolutions-logo.svg';
 import '../Navbar/Navbar.css';
 
 function Navbar() {
@@ -23,7 +23,7 @@ function Navbar() {
             <div className="flex justify-between items-center py-4">
                <div className="flex items-center">
                   <Link to='/' onClick={handleLinkClick}>
-                     <img src={brandLogo} alt="Logo" className="h-8 mr-2" />
+                     <img src={brandLogo} alt="Logo" className="w-full h-12 md:h-14 mr-2" />
                   </Link>
                </div>
                <div className="hidden md:flex items-center space-x-6 text-[#FEFAE1] font-bold">
