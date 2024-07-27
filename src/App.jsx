@@ -1,5 +1,5 @@
-import { Analytics } from '@vercel/analytics/react';
 import './App.css';
+import { Analytics } from '@vercel/analytics/react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Hero from "./components/Hero/Hero";
